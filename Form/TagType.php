@@ -5,6 +5,7 @@ namespace Mykees\TagBundle\Form;
 use Mykees\TagBundle\Manager\TagManager;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class TagType extends AbstractType
 {
@@ -26,7 +27,7 @@ class TagType extends AbstractType
     
     public function getParent()
     {
-        return 'text';
+        return TextType::class;
     }
 
     /**
