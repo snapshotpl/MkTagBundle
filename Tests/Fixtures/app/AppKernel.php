@@ -13,15 +13,10 @@ class AppKernel extends Kernel
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\SecurityBundle\SecurityBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
-            new Symfony\Bundle\MonologBundle\MonologBundle(),
-            new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
 
-            new Mvc\BlogBundle\MvcBlogBundle(),
-            new Mykees\MediaBundle\MykeesMediaBundle(),
             new Mykees\TagBundle\MykeesTagBundle(),
-            new FOS\UserBundle\FOSUserBundle(),
             new Liip\FunctionalTestBundle\LiipFunctionalTestBundle(),
         );
 
